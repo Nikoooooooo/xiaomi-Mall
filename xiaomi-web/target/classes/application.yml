@@ -1,0 +1,27 @@
+server:
+  port: 7777
+  web:
+    resources:  #springmvc指定静态页面的位置
+      static-locations: [classpath:/public/,classpath:/resources/,classpath:/META-INF:/resources/,classpath:/static/]
+
+  logging:
+    level:
+      root: info
+      com.yc: info
+      org.springframework.web: info
+
+spring:
+  cloud:
+    nacos:
+      discovery:                          #cloud的服务注册发现功能
+        server-addr: 192.168.64.55:8848       #将此服务注册到本机的nacos中
+        username: nacos
+        password: nacos
+  application:
+    name: xiaomi-web                        #服务名
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"

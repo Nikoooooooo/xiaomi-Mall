@@ -1,0 +1,39 @@
+server:
+  port: 20001
+
+spring:
+  application:
+    name: xiaomi-gateway
+  cloud:
+    gateway: #基础的路由配置
+      routes: #查看配置源码
+        - id: xiaomi-security
+          uri: lb://xiaomi-security
+          predicates:
+            - Path=/xiaomi-security/**
+          filters:
+            - StripPrefix=1
+        - id: xiaomi-web
+          uri: lb://xiaomi-web
+          predicates:
+            - Path=/xiaomi-web/**
+          filters:
+            - StripPrefix=1
+
+    nacos:
+      discovery:
+        server-addr: 192.168.64.55:8848
+        username: nacos
+        password: nacos
+
+logging:
+  level:
+    root: info
+    com.yc: info
+    org.springframework: info
+
+management:         #通过actuator暴露此服务的管理端口
+  endpoints:
+    web:            #通过web来暴露管理API
+      exposure:
+        include: "*"       # *代表将所有的端口暴露  一定要加"",因为*是特殊字符,加""防止转义

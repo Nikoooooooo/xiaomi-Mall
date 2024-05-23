@@ -1,0 +1,49 @@
+2024-05-21 20:53:48.560  INFO 22816 --- [restartedMain] c.a.n.client.env.SearchableProperties    : properties search order:PROPERTIES->JVM->ENV->DEFAULT_SETTING
+2024-05-21 20:53:48.729  INFO 22816 --- [restartedMain] com.yc.xiaomi.SecurityApp                : Starting SecurityApp using Java 11.0.17 on DESKTOP-JLS5AVN with PID 22816 (E:\java(idea)\xiaomi\xiaomi-security\target\classes started by qq271 in E:\java(idea)\xiaomi)
+2024-05-21 20:53:48.730  INFO 22816 --- [restartedMain] com.yc.xiaomi.SecurityApp                : No active profile set, falling back to 1 default profile: "default"
+2024-05-21 20:53:48.796  INFO 22816 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-05-21 20:53:48.797  INFO 22816 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-05-21 20:53:50.290  INFO 22816 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2024-05-21 20:53:50.293  INFO 22816 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-05-21 20:53:50.321  INFO 22816 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 15 ms. Found 0 Redis repository interfaces.
+2024-05-21 20:53:50.519  INFO 22816 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=601fd30d-1591-3032-bdbe-7728ed1103cc
+2024-05-21 20:53:50.936  INFO 22816 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8002 (http)
+2024-05-21 20:53:50.944  INFO 22816 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-21 20:53:50.945  INFO 22816 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.63]
+2024-05-21 20:53:51.036  INFO 22816 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-05-21 20:53:51.036  INFO 22816 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2238 ms
+2024-05-21 20:53:52.177  INFO 22816 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2024-05-21 20:53:52.682  INFO 22816 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2024-05-21 20:53:53.005  INFO 22816 --- [restartedMain] org.redisson.Version                     : Redisson 3.24.3
+2024-05-21 20:53:53.851  INFO 22816 --- [redisson-netty-4-5] o.r.c.pool.MasterPubSubConnectionPool    : 1 connections initialized for 192.168.64.55/192.168.64.55:6379
+2024-05-21 20:53:53.933  INFO 22816 --- [redisson-netty-4-19] o.r.c.pool.MasterConnectionPool          : 24 connections initialized for 192.168.64.55/192.168.64.55:6379
+2024-05-21 20:53:58.756  INFO 22816 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 19 endpoint(s) beneath base path '/actuator'
+2024-05-21 20:53:58.934  INFO 22816 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@21d1fedf, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@604994df, org.springframework.security.web.context.SecurityContextPersistenceFilter@2a39c0fd, org.springframework.security.web.header.HeaderWriterFilter@56989b7d, org.springframework.security.web.authentication.logout.LogoutFilter@108695fb, com.yc.xiaomi.filters.JwtRequestFilter@4bec8a1b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7ae2c200, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@53fe253a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1e01e0dc, org.springframework.security.web.session.SessionManagementFilter@6b774fc7, org.springframework.security.web.access.ExceptionTranslationFilter@48a1af84, org.springframework.security.web.access.intercept.AuthorizationFilter@5988825d]
+2024-05-21 20:53:59.050  INFO 22816 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-05-21 20:54:00.227  INFO 22816 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8002 (http) with context path ''
+2024-05-21 20:54:00.281  INFO 22816 --- [restartedMain] c.a.n.p.a.s.c.ClientAuthPluginManager    : [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2024-05-21 20:54:00.281  INFO 22816 --- [restartedMain] c.a.n.p.a.s.c.ClientAuthPluginManager    : [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2024-05-21 20:54:03.170  INFO 22816 --- [restartedMain] c.a.c.n.registry.NacosServiceRegistry    : nacos registry, DEFAULT_GROUP xiaomi-security 173.18.54.248:8002 register finished
+2024-05-21 20:54:04.108  WARN 22816 --- [restartedMain] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: , dataTypeClass: class java.lang.Void
+2024-05-21 20:54:04.111  WARN 22816 --- [restartedMain] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: , dataTypeClass: class java.lang.Void
+2024-05-21 20:54:04.111  WARN 22816 --- [restartedMain] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: , dataTypeClass: class java.lang.Void
+2024-05-21 20:54:04.134  WARN 22816 --- [restartedMain] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: , dataTypeClass: class java.lang.Void
+2024-05-21 20:54:04.134  WARN 22816 --- [restartedMain] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: , dataTypeClass: class java.lang.Void
+2024-05-21 20:54:04.135  WARN 22816 --- [restartedMain] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: , dataTypeClass: class java.lang.Void
+2024-05-21 20:54:04.135  WARN 22816 --- [restartedMain] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: , dataTypeClass: class java.lang.Void
+2024-05-21 20:54:04.135  WARN 22816 --- [restartedMain] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: , dataTypeClass: class java.lang.Void
+2024-05-21 20:54:04.252  INFO 22816 --- [restartedMain] s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2024-05-21 20:54:04.260  INFO 22816 --- [restartedMain] com.yc.xiaomi.SecurityApp                : Started SecurityApp in 16.959 seconds (JVM running for 22.166)
+2024-05-21 20:54:04.970  INFO 22816 --- [RMI TCP Connection(10)-192.168.64.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-21 20:54:04.970  INFO 22816 --- [RMI TCP Connection(10)-192.168.64.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-05-21 20:54:04.971  INFO 22816 --- [RMI TCP Connection(10)-192.168.64.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-05-21 21:12:02.902  WARN 22816 --- [http-nio-8002-exec-1] com.yc.xiaomi.filters.JwtRequestFilter   : JWT Token does not begin with Bearer String
+2024-05-21 21:12:06.801  WARN 22816 --- [http-nio-8002-exec-2] com.yc.xiaomi.filters.JwtRequestFilter   : JWT Token does not begin with Bearer String
+2024-05-21 21:28:01.335  WARN 22816 --- [Thread-11] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Start destroying Publisher
+2024-05-21 21:28:01.336  WARN 22816 --- [Thread-14] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Start destroying common HttpClient
+2024-05-21 21:28:01.336  WARN 22816 --- [Thread-11] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Destruction of the end
+2024-05-21 21:28:01.337  WARN 22816 --- [Thread-14] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Destruction of the end
+2024-05-21 21:28:01.914  INFO 22816 --- [SpringApplicationShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registering from Nacos Server now...
+2024-05-21 21:28:01.919  INFO 22816 --- [SpringApplicationShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registration finished.
+2024-05-21 21:28:02.083  INFO 22816 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2024-05-21 21:28:02.093  INFO 22816 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
